@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  header {
+    background-image:url("cloud1.webp");
+    background-size:cover;
+    color:black;
+    padding: 20px;
+  }
+  .a2{
+    text-align:center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .ab{
+    float:right;
+  }
+  nav ul li a:hover{
+    background-color:crimson;
+  }
+
+  
+  nav a {
+    color: black;
+    font-family:cursive;
+    font-size:150%;
+    text-decoration: none;
+  }
+  
+  main-content, .menu {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  footer {
+   background-image:url("wall.jpg");;
+    color: #fff;
+    font-size:200%;
+    padding: 10px;
+    font-family:cursive;
+    text-align: center;
+  }
+  section.b4{
+    background-image:url("sky2.jpg");
+    background-size:cover;
+  }
+  body{
+  font-family:cursive;
+  }

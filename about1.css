@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image:url("burger1.jpg");
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    color:violet;
+    font-variant:bold;
+    font-style:oblique;
+    
+  }
+  .a{
+    color:white;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  body{
+    font-family:cursive;
+  }

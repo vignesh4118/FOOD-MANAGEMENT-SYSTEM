@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reg.css">
+  <title>Food Management System - Registration</title>
+  <style>
+    body
+    {
+      background-image:url("nnature2.jpg");
+        background-size:cover;
+      
+    }
+    div.container
+    {
+      background: transparent;
+      border: 2px solid rgb(146, 71, 75);
+      backdrop-filter: blur(9px);
+      font-style:italic;
+      font-variant:bold;
+      color:black;
+      backdrop-filter: blur(3px);
+    }
+  </style>
+</head>
+<script>  
+  function validateform(){  
+  var name=document.myform.name.value;  
+  var password=document.myform.password.value;  
+    if (name==null || name==""){  
+    alert("Name can't be blank");  
+    return false;  
+  }else if(password.length<6){  
+    alert("Password must be at least 6 characters long.");  
+    return false;  
+    }  
+  }  
+  </script>  
+  
+
+<body>
+  <div class="container">
+    <h1>Food Management System Registration</h1>
+    <form action="login.html" name="myform" method="POST"  onsubmit="return validateform()" >
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="order1.css">
+  <title>Food Management System</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Order Page</h1>
+    <form action ="ordered.html">
+      <label for="item">Select an item:</label>
+      <select id="item" name="item">
+        <option value="burger">Burger</option>
+        <option value="pizza">Pizza</option>
+        <option value="salad">Salad</option>
+      </select>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10">
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>
